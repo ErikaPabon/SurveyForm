@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css"> 
+<head>
+<h1 id="title"> English for All
+  <title> English for All</title>
+  </h1>
+</head>
+<p id="description">English for all is a platform that gets together english speakers with kids from around the world offering classes for free.</p>
+<body>
+<form id="survey-form">
+  <div>
+   <label for="name" id="name-label">Name: </label>
+    <input type="text" id="name" placeholder="Enter your name" required/></div>
+  <div><label for="email" id="email-label">Email: </label>
+    <input type="email" id="email" placeholder="Enter your email" required/></div>
+    <div><label for="number" id="number-label">Age: </label>
+    <input type="number" id="number" min="13" max="120" placeholder="Enter your age" required/></div><br>
+<div>
+<select id="dropdown">
+<option value="description">Interested in: </option>
+<option value="Teaching">Teaching
+</option>
+<option value="Mentorin">Mentoring
+</option>
+<option value="Learning">Learning
+</option></div>
+<div>
+<input type="radio" id="social-media" name="source" value="social media"/>
+<label for="social-media">Social media</label>
+<input type="radio" id="friends" name="source" value="friends"/>
+<label for="friends">Friends</label>
+</div><br>
+<p>What cohort are you interested in?</p>
+<input type="checkbox" id="season1" name="season1" value="spring23"/>
+<label for="season1"> Spring 23</label><br>
+<input type="checkbox" id="season2" name="season2" value="summer23"/>
+<label for="season2"> Summer 23</label><br>
+<input type="checkbox" id="season3" name="season3" value="fall23"/>
+<label for="fall23"> Fall 23</label><br>
+<label for="Request">Any special accomodation?</label>
+<textarea id="Requests" cols="30" rows="10" placeholder="Please write any important information"/></textarea><br>
+<input type="Submit" value="Submit" id="submit"/>
+</form>
+</body>
+  </html>
